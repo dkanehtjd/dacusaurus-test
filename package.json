@@ -56,7 +56,8 @@
     "watch": "yarn lerna run --parallel watch",
     "clear": "(yarn workspace website clear || echo 'Failure while running docusaurus clear') && yarn lerna exec --ignore docusaurus yarn rimraf lib",
     "test:baseUrl": "yarn build:website:baseUrl && yarn serve:website:baseUrl",
-    "lock:update": "npx --yes yarn-deduplicate"
+    "lock:update": "npx --yes yarn-deduplicate",
+    "pull": "docu-notion -n secret_MWLP3EqzIahTN6G4yPYrD3KzJedRF9DdxoZ4AEW2QU3 -r 5c8c55bb155c4ad180b602428d7783c9"
   },
   "dependencies": {
     "unified": "^9.2.2"
