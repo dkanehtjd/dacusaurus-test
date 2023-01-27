@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "callouts",
+    "DOCU_NOTION",
+    "docu-notion",
+    "Greenshot",
+    "imgur",
+    "kanban",
+    "unlocalized"
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#d649ca",
+    "statusBar.noFolderBackground": "#d649ca",
+    "statussBar.prominentBackground": "#d649ca"
+  }
+}
